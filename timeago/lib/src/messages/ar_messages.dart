@@ -30,7 +30,7 @@ class ArMessages implements LookupMessages {
   }
 
   @override
-  String aboutAnHour(int minutes) => 'قبل حوالي الساعة';
+  String aboutAnHour(int minutes) => '١ ساعة';
   @override
   String hours(int hours) {
     if (hours == 1) {
@@ -47,7 +47,7 @@ class ArMessages implements LookupMessages {
   }
 
   @override
-  String aDay(int hours) => 'قبل يوم';
+  String aDay(int hours) => '١ يوم';
   @override
   String days(int days) {
     if (days == 1) {
@@ -63,7 +63,7 @@ class ArMessages implements LookupMessages {
   }
 
   @override
-  String aboutAMonth(int days) => 'قبل حوالي شهر';
+  String aboutAMonth(int days) => '١ شهر';
   @override
   String months(int months) {
     if (months == 1) {
@@ -79,7 +79,7 @@ class ArMessages implements LookupMessages {
   }
 
   @override
-  String aboutAYear(int year) => 'قبل سنة';
+  String aboutAYear(int year) => '١ سنة';
   @override
   String years(int years) {
     if (years == 1) {
