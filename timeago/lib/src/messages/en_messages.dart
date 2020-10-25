@@ -9,27 +9,27 @@ class EnMessages implements LookupMessages {
   @override
   String suffixAgo() => 'ago';
   @override
-  String suffixFromNow() => 'from now';
+  String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => 'a moment';
+  String lessThanOneMinute(int seconds) => '1 moment';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => '1 minute';
   @override
   String minutes(int minutes) => '$minutes minutes';
   @override
-  String aboutAnHour(int minutes) => 'about an hour';
+  String aboutAnHour(int minutes) => '1 hour';
   @override
   String hours(int hours) => '$hours hours';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => '1 day';
   @override
   String days(int days) => '$days days';
   @override
-  String aboutAMonth(int days) => 'about a month';
+  String aboutAMonth(int days) => '1 month';
   @override
   String months(int months) => '$months months';
   @override
-  String aboutAYear(int year) => 'about a year';
+  String aboutAYear(int year) => '1 year';
   @override
   String years(int years) => '$years years';
   @override
@@ -53,19 +53,19 @@ class EnShortMessages implements LookupMessages {
   @override
   String minutes(int minutes) => '$minutes min';
   @override
-  String aboutAnHour(int minutes) => '~1 h';
+  String aboutAnHour(int minutes) => '1 h';
   @override
   String hours(int hours) => '$hours h';
   @override
-  String aDay(int hours) => '~1 d';
+  String aDay(int hours) => '1 d';
   @override
   String days(int days) => '$days d';
   @override
-  String aboutAMonth(int days) => '~1 mo';
+  String aboutAMonth(int days) => '1 mo';
   @override
   String months(int months) => '$months mo';
   @override
-  String aboutAYear(int year) => '~1 yr';
+  String aboutAYear(int year) => '1 yr';
   @override
   String years(int years) => '$years yr';
   @override
