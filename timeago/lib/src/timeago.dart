@@ -89,10 +89,10 @@ String format(DateTime date,
     result = messages.hours(hours.round());
   } else if (hours < 48) {
     result = messages.aDay(hours.round());
-  } else if (days < 30) {
-    result = messages.days(days.round());
-  } else if (days < 60) {
+  } else if (days == 30) {
     result = messages.aboutAMonth(days.round());
+  } else if (days < 60) {
+    result = messages.days(days.round());
   } else if (days < 365) {
     result = messages.months(months.round());
   } else if (years < 2) {
